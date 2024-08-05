@@ -1,5 +1,5 @@
 ---
-title: Another first post
+title: My blog about operating and developing systems
 ---
 
 Here is my plan what to write about:
