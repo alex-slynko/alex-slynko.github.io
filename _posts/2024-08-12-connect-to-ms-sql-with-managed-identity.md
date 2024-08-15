@@ -34,13 +34,13 @@ row = cursor.fetchone()
 print(row)
 ```
 
-## SQLAlchemy connection string
+## SQLAlchemy connection string
 
 You can directly convert the ODBC connection string to the SQLAlchemy connection string.
 It would look like:
 
-```
+```python
     mssql+pyodc://<identity-name>@<host>/<database>?Authentication=ActiveDirectoryMsi&driver={ODBC+Driver+18+for+SQL+Server}
 ```
 
-One thing to note is that you need to add `driver=ODBC Driver 18 for SQL Server` to the connection string. It is possible to set it in the environment variable, but I found it easier to set it in the connection string. Because the upgrade is done using the code changes, not the combination of the code changes and the environment changes.
+One thing to note is that you need to add `driver=ODBC Driver 18 for SQL Server` to the connection string. It is possible to set it in the environment variable, but I found it easier to set it in the connection string. Because the upgrade is done using the code changes, not the combination of the code changes and the environment changes
