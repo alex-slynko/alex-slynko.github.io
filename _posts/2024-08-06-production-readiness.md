@@ -1,6 +1,7 @@
 ---
 title: "Production Readiness"
 date: 2024-08-06
+categories: [Production Readiness]
 ---
 
 Production readiness is a set of criteria that make it easier to operate a system in production. It is not required and there is no well-defined checklist. Most of the systems I met in my career got to production without this concept in mind and we slowly improving over time.

@@ -1,6 +1,7 @@
 ---
 title: "Connect to MS SQL using pyodbc with Managed Identity"
 date: 2024-08-12
+tags: [Azure, Python, Managed Identity]
 ---
 
 ## Introduction

@@ -1,6 +1,7 @@
 ---
 title: "Problems with storing secrets as environment variables in Airflow"
 date: 2024-08-15
+tags: [Airflow, Kubernetes, Secrets]
 ---
 
 Airflow provides three ways to store connections: environment variables, metadata database, and external secret backend.
